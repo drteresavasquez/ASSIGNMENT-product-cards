@@ -4,36 +4,96 @@
 }
 
 body {
-    background-color: white;
+    background-color: #156064;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+main {
     display: flex;
     flex-wrap: wrap;
     max-width: 90rem;
-    min-width: 90rem;
+    justify-content: center;
+}
+
+.page-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #156064;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    height: 100px;
+    background-color: #FB8F67;
 }
 
 .card-style {
-    border: solid 1px lightblue;
+    border: solid 2px #00C49A;
+    border-radius: 25px;
     width: 20rem;
-    box-shadow: .5rem .5rem lightgray;
     margin: 2rem;
+    background-color: white;
 }
 
 header h2 {
     text-align: center;
+    padding: 1rem 0rem;
 }
 
 img {
-    height: 10rem;
-    width: 10rem;
+    width: 50%;
     display: block;
     margin: auto;
 }
 
 .description {
     text-align: justify;
+    padding-bottom: 1rem;
+    padding: 1rem;
 }
 
 h3 {
-    background-color: darkgray;
-    color: yellow;
+    background-color: #156064;
+    color: #F8E16C;
+    padding: 0rem 1rem;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+.specifications-div {
+    padding: 1rem;
+}
+
+p.specifications-div {
+    font-size: .9rem;
+}
+
+.pricing-div {
+    padding: 0rem 1rem 1rem 1rem;
+}
+
+p.pricing-div {
+    font-size: .9rem;
+}
+
+.specifications-note {
+    font-size: .75rem;
+    padding-top: .5rem;
+}
+
+.tennis-parent {
+    position: relative;
+}
+
+.tennis-ball {
+    position: relative;
+}
+
+.sold-out {
+    position: absolute;
+    top: .5rem;
+    left: 3rem;
+    right: 3rem;
+    opacity: .25;
 }
